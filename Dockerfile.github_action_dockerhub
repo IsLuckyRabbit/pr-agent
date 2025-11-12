@@ -1,1 +1,7 @@
+# 新增：添加随机标记，强制每次构建不缓存（修改后推送到main分支）
+ARG CACHEBUST=1
+
 FROM codiumai/pr-agent:github_action
+
+ # 新增：将本地pr_agent目录覆盖到镜像的/app/pr_agent
+COPY pr_agent /app/pr_agent
