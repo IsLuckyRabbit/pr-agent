@@ -1,4 +1,5 @@
 MAX_TOKENS = {
+    'qwen-coder-turbo-latest': 65536,
     'text-embedding-ada-002': 8000,
     'gpt-3.5-turbo': 16000,
     'gpt-3.5-turbo-0125': 16000,
