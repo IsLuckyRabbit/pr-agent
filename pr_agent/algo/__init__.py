@@ -1,6 +1,5 @@
 MAX_TOKENS = {
-    'openai/qwen-coder-turbo-latest': 65536,
-    'openai/qwen-coder-plus-latest': 131072,
+    'openai/qwen3-coder-plus': 128000,
     'text-embedding-ada-002': 8000,
     'gpt-3.5-turbo': 16000,
     'gpt-3.5-turbo-0125': 16000,
